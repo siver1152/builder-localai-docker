@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git vim net-tools -y 
 
 git clone https://github.com/mudler/LocalAI.git
-cd localai
+cd Localai
 sudo docker compose up 
 
 #docker run -p 8080:8080 --name local-ai -ti localai/localai:latest-aio-cpu
